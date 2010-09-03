@@ -26,5 +26,15 @@ public class SplashActivity extends Activity {
 				startActivity(i); 
 			}
 		});
+		
+		Button contactButon = (Button)findViewById(R.id.contactButton); 
+		contactButon.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(SplashActivity.this, HdcContactActivity.class); 
+				startActivity(i); 
+			}
+		});
 	}
 }
