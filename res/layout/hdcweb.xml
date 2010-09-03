@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
   android:layout_gravity="center_horizontal"
   android:orientation="vertical">
-  <ImageView 
+    <ImageView 
   	android:layout_width="wrap_content"
   	android:layout_height="wrap_content"
   	android:src="@drawable/hdc"
   	android:layout_gravity="center_horizontal"
   	android:padding="10dip"
-  	android:layout_marginTop="50dip"
   	android:layout_marginBottom="25dip" />
-  	<Button 
-  		android:id="@+id/websiteButton"
-  		android:layout_width="fill_parent"
-  		android:layout_height="wrap_content"
-  		android:text="@string/splash_website_button_text"
-  		android:layout_margin="5dip"
-  		 /> 		
+  	<WebView android:id="@+id/hdcWebsiteView"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"/>
+			 
 </LinearLayout>

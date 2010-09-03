@@ -3,7 +3,7 @@
     
     <string name="app_name">HDC10 Lab</string>
 	<string name="app_about">This application was built during the HDC10 Android lab. Please send comments to the instructor via the contact button.</string>
-<string name="splash_twitter_button_text">HDC10 Tweets</string>
-<string name="splash_contact_button_text">Contact</string>
-<string name="splash_website_button_text">HDC Website</string>
+
+<string name="splash_website_button_text">HDC10 Website</string>
+
 </resources>

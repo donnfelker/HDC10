@@ -14,8 +14,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HdcWebActivity" />
     </application>
-    <uses-sdk android:minSdkVersion="4" />
+    <uses-sdk android:minSdkVersion="7" />
 
 
 <uses-permission android:name="android.permission.INTERNET"></uses-permission>

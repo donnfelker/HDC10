@@ -1,7 +1,10 @@
 package com.heartlanddc.hdc10;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class SplashActivity extends Activity {
 	 @Override
@@ -9,5 +12,19 @@ public class SplashActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		
 		setContentView(R.layout.splash); 
+		
+		setButtonClickListeners(); 
+	}
+
+	private void setButtonClickListeners() {
+		Button websiteButton = (Button)findViewById(R.id.websiteButton); 
+		websiteButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(SplashActivity.this, HdcWebActivity.class); 
+				startActivity(i); 
+			}
+		});
 	}
 }
