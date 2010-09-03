@@ -36,5 +36,15 @@ public class SplashActivity extends Activity {
 				startActivity(i); 
 			}
 		});
+		
+		Button tweetsButton = (Button)findViewById(R.id.tweetsButton); 
+		tweetsButton.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(SplashActivity.this, HdcTwitterActivity.class); 
+				startActivity(i);
+			}
+		});
 	}
 }

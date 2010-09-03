@@ -27,4 +27,11 @@
   		android:text="@string/splash_contact_button_text"
   		android:layout_margin="5dip"
   		 /> 		
+  	<Button 
+  		android:id="@+id/tweetsButton"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:text="@string/splash_tweets_button_text"
+  		android:layout_margin="5dip"
+  		 /> 
 </LinearLayout>
