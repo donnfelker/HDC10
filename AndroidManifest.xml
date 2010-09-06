@@ -6,7 +6,7 @@
     	android:icon="@drawable/icon" 
     	android:label="@string/app_name" 
     	android:debuggable="true"
-    	android:theme="@android:style/Theme.Light">
+    	android:theme="@style/hdc.light">
         <activity android:name=".SplashActivity"
                   android:label="@string/app_name">
             <intent-filter>
