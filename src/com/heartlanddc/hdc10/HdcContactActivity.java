@@ -30,7 +30,7 @@ public class HdcContactActivity extends Activity {
 				// Start activity to send email. 
 				Intent i = new Intent(Intent.ACTION_SEND); 
 				i.setType("plain/text");
-				i.putExtra(Intent.EXTRA_EMAIL, "dfelker@agilevent.com");
+				i.putExtra(Intent.EXTRA_EMAIL,  new String[] {"dfelker@agilevent.com"});
 				i.putExtra(Intent.EXTRA_SUBJECT, "From Demo App: " + subject.getText());
 				i.putExtra(Intent.EXTRA_TEXT, "Sent From the HDC Lab App. I loved your class! \r\n" + message.getText());
 				
